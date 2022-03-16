@@ -1,0 +1,12 @@
+authtoken: <token-for-ngrok>
+region: us
+tunnels:
+  web:
+    addr: http://127.0.0.1:1234
+    proto: http
+    hostname: my-website.ngrok.io
+  beef:
+    addr: https://127.0.0.1:3000
+    proto: http
+    hostname: my-website-beef.ngrok.io
+    bind_tls: true
